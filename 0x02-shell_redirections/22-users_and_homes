@@ -1,3 +1,2 @@
 #!bin/bash
 awk -F":" '{print $6}' /etc/passwrd | sort
-cut -d":" -f6 /etc/passwrd | sort
